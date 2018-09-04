@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: blog-webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 0
+Implementation-Vendor-Id: pri.zjj
+Build-Jdk: 1.8.0_172
+Implementation-URL: http://maven.apache.org/blog-webapp
+Created-By: Maven Integration for Eclipse
+

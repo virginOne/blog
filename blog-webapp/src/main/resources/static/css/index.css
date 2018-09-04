@@ -1,0 +1,48 @@
+
+.artcles h1 a{
+    color: #99958d;
+}
+
+.artcles h1 a:hover{
+    color: aquamarine;
+}
+
+.container .artcles,.container .artcleContent{
+    border: 1px solid rgb(199, 194, 194 );
+    box-shadow: 1px 1px 2px rgb(199, 194, 194 );
+    transition-duration: 1s;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.artcles, .artcleContent{
+    border: 1px solid rgb(199, 194, 194 );
+    margin: 5px 10%;
+    top: 0;
+    box-shadow: 1px 1px 2px rgb(199, 194, 194 );
+    width: 80%;
+}
+
+
+.artcle p{
+    text-indent: 2em;
+    
+}
+
+.artcleContent{
+    height: 500px;
+    position: absolute;
+    transition-delay: 0.6s;
+    transform:scale(0,0);
+    -ms-transform:scale(0,0); 	/* IE 9 */
+    -moz-transform:scale(0,0); 	/* Firefox */
+    -webkit-transform:scale(0,0); /* Safari 和 Chrome */
+    -o-transform:scale(0,0); 	/* Opera */
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    perspective: 10000;
+}

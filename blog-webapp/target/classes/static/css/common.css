@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.aside {
+    margin-right: 20px;
+    top: 0;
+    left: -210px;
+    bottom: 0;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px #777;
+    opacity: 0.8;
+    border-radius: 0 10px 10px 0;
+    width: 200px;
+    z-index: 10;
+    transition: left 0.2s linear;
+    -webkit-transition: left 0.2s linear;
+}
+
+.aside #userInfo {
+    width: 100%;
+    height: 200px;
+}
+
+.aside #asideMenu {
+    margin-top: 80px;
+}
+
+.aside #userInfo headphoto {
+    display: inline-block;
+    margin: 50px 50px 20px 50px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: solid 2px #eed;
+}
+
+.aside #userInfo headphoto img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aside #userInfo h1{
+    text-align: center;
+    color: #eed;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aside li {
+    width: 100%;
+    list-style: none;
+    height: 34px;
+    color: #eed;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0 5px 0;
+    padding: 2px 0 2px 0;
+    border-radius: 17px 17px 17px 17px;
+}
+
+.aside li:hover {
+    background: #682;
+}
+
+.aside:hover{
+    left:0;
+}
+
+.aside a {
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.aside mouseover{
+    display: block;
+    height: 100%;
+    width: 15px;
+    right: -15px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    perspective: 10000;
+}
+
+#cb_navi:checked + .head .headFront{
+    transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg); 	/* IE 9 */
+    -moz-transform:rotateX(180deg); 	/* Firefox */
+    -webkit-transform:rotateX(180deg); /* Safari 和 Chrome */
+    -o-transform:rotateX(180deg); 	/* Opera */
+}
+
+#cb_navi:checked + .head .headBack{
+    transform:rotateX(0);
+    -ms-transform:rotateX(0); 	/* IE 9 */
+    -moz-transform:rotateX(0); 	/* Firefox */
+    -webkit-transform:rotateX(0); /* Safari 和 Chrome */
+    -o-transform:rotateX(0); 	/* Opera */
+}
+
+.head .headFront,.head .headBack{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 3s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.head .headFront{
+    background: url('../image/back/back.jpg') no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.head .headBack{
+    background: url('../image/back/back2.jpg') no-repeat;
+    background-size: 100% 100%;
+    transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg); 	/* IE 9 */
+    -moz-transform:rotateX(180deg); 	/* Firefox */
+    -webkit-transform:rotateX(180deg); /* Safari 和 Chrome */
+    -o-transform:rotateX(180deg); 	/* Opera */
+}
+
+.box-toTop{
+    width: 45px;
+    border: #d4cebe 1px solid;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 20;
+    text-align: center;
+    display: inline-block;
+}
+
+.box-toTop:hover{
+    opacity: 0.7;
+}
+
+.box-toTop:hover .spanHover{
+    opacity: 1;
+}
+
+.box-toTop:hover a i{
+    opacity: 0;
+}
+
+.box-toTop:hover a i::after{
+    opacity: 0;
+}
+
+.box-toTop:hover a i::before{
+    opacity: 0;
+}
+
+.box-toTop:hover a i::after{
+    opacity: 0;
+}
+
+.box-toTop a i{
+    top:13px;
+    left: 7px;
+    opacity: 1;
+}
+.a-button{
+    position: relative;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #eeebe2;
+    color: #99958d;
+}
+
+.spanHover{
+    line-height: 45px;
+    margin: 0 auto;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 22;
+}
+
+
+.icon-top-arrow{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 25;
+}
+
+.icon-top-arrow::before{
+    content: "";
+    border: 15px solid #999;
+    position: absolute;
+    width: 0;
+    height: 0;
+    display:block;
+    border-radius: 3px;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.icon-top-arrow::after{
+    content: "";
+    border: 15px solid #eeebe2;
+    width: 0;
+    position: absolute;
+    top: 3px;
+    height: 0;
+    display:block;
+    border-radius: 2px;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
