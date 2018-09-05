@@ -32,7 +32,7 @@
 .artcleContent{
     height: 500px;
     position: absolute;
-    transition-delay: 1s;
+    transition-delay: 0.6s;
     transform:scale(0,0);
     -ms-transform:scale(0,0); 	/* IE 9 */
     -moz-transform:scale(0,0); 	/* Firefox */
