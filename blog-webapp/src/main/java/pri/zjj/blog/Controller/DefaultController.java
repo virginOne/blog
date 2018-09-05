@@ -1,4 +1,4 @@
-package pri.zjj.blog.controller;
+package pri.zjj.blog.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
