@@ -1,5 +1,5 @@
 pri\zjj\blog\config\RedisConfig.class
+pri\zjj\blog\Controller\DefaultController.class
 pri\zjj\blog\config\MasterDataSourceConfig.class
-pri\zjj\blog\controller\DefaultController.class
 pri\zjj\blog\Application.class
 pri\zjj\blog\config\RedisConfig$1.class

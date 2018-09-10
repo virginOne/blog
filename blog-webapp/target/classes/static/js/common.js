@@ -1,7 +1,7 @@
 var vAside = new Vue({
     el: '#aside',
     data:{
-        headPhoto:'../image/head/default.jpg',
+        headPhoto:'/blog/image/head/default.jpg',
         userName:'游客',
         menus:[{name:'首页',url:'javascript:void(0);'},{name:'用户信息',url:'javascript:void(0);'},{name:'注销',url:'javascript:void(0);'}],
         address:'',
@@ -82,3 +82,11 @@ function decideDevice() {
         return false;
     }
 }
+var xhr=new XMLHttpRequest();
+xhr.open("GET","/blog/error/403",true);
+xhr.onreadystatechange=function(){
+	console.log(xhr.responseText);
+};
+xhr.setRequestHeader("X-Requested-With","XMLHttpRequest");
+xhr.send();
+console.log(xhr);
