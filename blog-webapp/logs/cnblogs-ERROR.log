@@ -1,2 +1,0 @@
-2018-09-12 at 14:26:40 CST WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 166 doScan - No MyBatis mapper was found in '[pri.zjj.blog.dao]' package. Please check your configuration.
-2018-09-12 at 14:26:40 CST WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 166 doScan - No MyBatis mapper was found in '[pri.zjj.blog]' package. Please check your configuration.

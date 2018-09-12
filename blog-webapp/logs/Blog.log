@@ -1,0 +1,141 @@
+2018-09-12 15:48:50.090  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Starting Application on DESKTOP-AON2PCD with PID 4156 (C:\Users\0\eclipse-workspace\blog-parent\blog-webapp\target\classes started by 0 in C:\Users\0\eclipse-workspace\blog-parent\blog-webapp)
+2018-09-12 15:48:50.091  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : The following profiles are active: dev
+2018-09-12 15:48:51.385  WARN 4156 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[pri.zjj.blog.dao]' package. Please check your configuration.
+2018-09-12 15:48:51.567  WARN 4156 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[pri.zjj.blog]' package. Please check your configuration.
+2018-09-12 15:48:51.616  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 15:48:51.618  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-09-12 15:48:51.642  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2018-09-12 15:48:52.068  INFO 4156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [pri.zjj.blog.config.RedisConfig$$EnhancerBySpringCGLIB$$b0723598] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-12 15:48:52.079  INFO 4156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e254abd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-12 15:48:52.522  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-09-12 15:48:52.541  INFO 4156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-12 15:48:52.541  INFO 4156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.10
+2018-09-12 15:48:52.546  INFO 4156 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_172/bin/server;C:/Program Files/Java/jre1.8.0_172/bin;C:/Program Files/Java/jre1.8.0_172/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Apache\maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Apache\gradle-4.9\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global;C:\Program Files\Git\cmd;C:\Users\0\AppData\Roaming\npm;C:\Users\0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\0\Desktop;;.]
+2018-09-12 15:48:52.698  INFO 4156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/blog]   : Initializing Spring embedded WebApplicationContext
+2018-09-12 15:48:52.698 DEBUG 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-09-12 15:48:52.698  INFO 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2521 ms
+2018-09-12 15:48:53.150  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-12 15:48:53.151  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2018-09-12 15:48:53.152  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-12 15:48:53.152  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-09-12 15:48:53.152  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-12 15:48:53.152  INFO 4156 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-12 15:48:53.526 DEBUG 4156 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2018-09-12 15:48:53.784  INFO 4156 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-09-12 15:48:54.010  INFO 4156 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2018-09-12 15:48:54.013  INFO 4156 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2018-09-12 15:48:54.341  INFO 4156 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-12 15:48:54.374  INFO 4156 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'applicationTaskExecutor'
+2018-09-12 15:48:54.420 DEBUG 4156 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-09-12 15:48:54.638  INFO 4156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-12 15:48:54.670 DEBUG 4156 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-09-12 15:48:54.707 DEBUG 4156 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-09-12 15:48:54.723 DEBUG 4156 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-09-12 15:48:55.085  INFO 4156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-09-12 15:48:55.113  INFO 4156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-09-12 15:48:55.162  INFO 4156 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-09-12 15:48:55.339  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_1
+2018-09-12 15:48:55.341  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_2
+2018-09-12 15:48:55.344  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_3
+2018-09-12 15:48:55.346  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_4
+2018-09-12 15:48:55.349  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_5
+2018-09-12 15:48:55.351  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_6
+2018-09-12 15:48:55.354  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_7
+2018-09-12 15:48:55.529  INFO 4156 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-12 15:48:55.553  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blog'
+2018-09-12 15:48:55.558  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Started Application in 5.885 seconds (JVM running for 6.741)
+2018-09-12 15:48:55.562  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Application success!
+2018-09-12 15:49:24.924  INFO 4156 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-09-12 15:49:24.926  INFO 4156 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-09-12 15:49:26.435  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Starting Application on DESKTOP-AON2PCD with PID 4156 (C:\Users\0\eclipse-workspace\blog-parent\blog-webapp\target\classes started by 0 in C:\Users\0\eclipse-workspace\blog-parent\blog-webapp)
+2018-09-12 15:49:26.436  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : The following profiles are active: dev
+2018-09-12 15:49:26.933  WARN 4156 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[pri.zjj.blog.dao]' package. Please check your configuration.
+2018-09-12 15:49:26.969  WARN 4156 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[pri.zjj.blog]' package. Please check your configuration.
+2018-09-12 15:49:26.982  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 15:49:26.982  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-09-12 15:49:26.986  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2018-09-12 15:49:27.058  INFO 4156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [pri.zjj.blog.config.RedisConfig$$EnhancerBySpringCGLIB$$b0723598] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-12 15:49:27.061  INFO 4156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e254abd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-12 15:49:27.192  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-09-12 15:49:27.193  INFO 4156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-12 15:49:27.193  INFO 4156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.10
+2018-09-12 15:49:27.214  INFO 4156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/blog]   : Initializing Spring embedded WebApplicationContext
+2018-09-12 15:49:27.214 DEBUG 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-09-12 15:49:27.214  INFO 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 776 ms
+2018-09-12 15:49:27.269  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-12 15:49:27.270  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2018-09-12 15:49:27.270  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-12 15:49:27.270  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-09-12 15:49:27.270  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-12 15:49:27.270  INFO 4156 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-12 15:49:27.417 DEBUG 4156 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2018-09-12 15:49:27.475  INFO 4156 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-09-12 15:49:27.594  INFO 4156 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-12 15:49:27.607  INFO 4156 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'applicationTaskExecutor'
+2018-09-12 15:49:27.625 DEBUG 4156 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-09-12 15:49:27.700  INFO 4156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-12 15:49:27.706 DEBUG 4156 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-09-12 15:49:27.713 DEBUG 4156 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-09-12 15:49:27.722 DEBUG 4156 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-09-12 15:49:27.823  INFO 4156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-09-12 15:49:27.825  INFO 4156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-09-12 15:49:27.830  INFO 4156 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-09-12 15:49:27.840  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_1
+2018-09-12 15:49:27.841  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_2
+2018-09-12 15:49:27.844  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_3
+2018-09-12 15:49:27.845  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_4
+2018-09-12 15:49:27.848  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_5
+2018-09-12 15:49:27.850  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_6
+2018-09-12 15:49:27.852  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_7
+2018-09-12 15:49:27.916  INFO 4156 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-12 15:49:27.922  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blog'
+2018-09-12 15:49:27.922  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Started Application in 1.521 seconds (JVM running for 39.106)
+2018-09-12 15:49:27.927  INFO 4156 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-09-12 15:49:27.927  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Application success!
+2018-09-12 15:50:14.042  INFO 4156 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-09-12 15:50:14.046  INFO 4156 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-09-12 15:50:15.713  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Starting Application on DESKTOP-AON2PCD with PID 4156 (C:\Users\0\eclipse-workspace\blog-parent\blog-webapp\target\classes started by 0 in C:\Users\0\eclipse-workspace\blog-parent\blog-webapp)
+2018-09-12 15:50:15.713  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : The following profiles are active: dev
+2018-09-12 15:50:16.302  WARN 4156 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[pri.zjj.blog.dao]' package. Please check your configuration.
+2018-09-12 15:50:16.342  WARN 4156 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[pri.zjj.blog]' package. Please check your configuration.
+2018-09-12 15:50:16.356  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 15:50:16.356  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-09-12 15:50:16.360  INFO 4156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2018-09-12 15:50:16.461  INFO 4156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [pri.zjj.blog.config.RedisConfig$$EnhancerBySpringCGLIB$$b0723598] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-12 15:50:16.463  INFO 4156 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e254abd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-12 15:50:16.625  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-09-12 15:50:16.627  INFO 4156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-12 15:50:16.627  INFO 4156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.10
+2018-09-12 15:50:16.650  INFO 4156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/blog]   : Initializing Spring embedded WebApplicationContext
+2018-09-12 15:50:16.650 DEBUG 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-09-12 15:50:16.650  INFO 4156 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 932 ms
+2018-09-12 15:50:16.703  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-12 15:50:16.703  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2018-09-12 15:50:16.703  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-12 15:50:16.703  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-09-12 15:50:16.703  INFO 4156 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-12 15:50:16.704  INFO 4156 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-12 15:50:16.882 DEBUG 4156 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2018-09-12 15:50:16.958  INFO 4156 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-09-12 15:50:17.058  INFO 4156 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-12 15:50:17.071  INFO 4156 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'applicationTaskExecutor'
+2018-09-12 15:50:17.089 DEBUG 4156 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-09-12 15:50:17.193  INFO 4156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-09-12 15:50:17.200 DEBUG 4156 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2018-09-12 15:50:17.209 DEBUG 4156 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-09-12 15:50:17.219 DEBUG 4156 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-09-12 15:50:17.320  INFO 4156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-09-12 15:50:17.322  INFO 4156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-09-12 15:50:17.327  INFO 4156 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-09-12 15:50:17.336  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_1
+2018-09-12 15:50:17.337  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_2
+2018-09-12 15:50:17.339  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_3
+2018-09-12 15:50:17.340  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_4
+2018-09-12 15:50:17.342  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_5
+2018-09-12 15:50:17.343  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_6
+2018-09-12 15:50:17.345  INFO 4156 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test_getUsingGET_7
+2018-09-12 15:50:17.405  INFO 4156 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-12 15:50:17.410  INFO 4156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blog'
+2018-09-12 15:50:17.411  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Started Application in 1.742 seconds (JVM running for 88.594)
+2018-09-12 15:50:17.413  INFO 4156 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-09-12 15:50:17.414  INFO 4156 --- [restartedMain] pri.zjj.blog.Application                 : Application success!
