@@ -1,5 +1,9 @@
 pri\zjj\blog\config\RedisConfig.class
-pri\zjj\blog\Controller\DefaultController.class
 pri\zjj\blog\config\MasterDataSourceConfig.class
+pri\zjj\blog\config\WebConfig.class
+pri\zjj\blog\Controller\DefaultController.class
+pri\zjj\blog\config\Swagger2Config.class
+pri\zjj\blog\Controller\ErrorController.class
 pri\zjj\blog\Application.class
 pri\zjj\blog\config\RedisConfig$1.class
+pri\zjj\blog\config\ShiroConfig.class

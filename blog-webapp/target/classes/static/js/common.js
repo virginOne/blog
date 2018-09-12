@@ -18,7 +18,7 @@ var vAside = new Vue({
             }
         }
         //添加全局触摸拉出侧边栏
-        if (document.addEventListener) {
+        if (this.$el.addEventListener) {
             let touch_x, touch_y;
             let changedX, changedY;
             let sourceLeft = document.defaultView.getComputedStyle(this.$el).left;
@@ -82,11 +82,3 @@ function decideDevice() {
         return false;
     }
 }
-var xhr=new XMLHttpRequest();
-xhr.open("GET","/blog/error/403",true);
-xhr.onreadystatechange=function(){
-	console.log(xhr.responseText);
-};
-xhr.setRequestHeader("X-Requested-With","XMLHttpRequest");
-xhr.send();
-console.log(xhr);

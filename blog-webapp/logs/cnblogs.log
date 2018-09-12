@@ -1,0 +1,306 @@
+2018-09-12 at 14:26:39 CST DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator 89 buildExpressionFactory - Loaded expression factory via original TCCL
+2018-09-12 at 14:26:39 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 578 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-09-12 at 14:26:39 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 579 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-09-12 at 14:26:39 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 580 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-09-12 at 14:26:39 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 581 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-09-12 at 14:26:39 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 582 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-09-12 at 14:26:39 CST INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting Application on DESKTOP-AON2PCD with PID 6624 (C:\Users\0\eclipse-workspace\blog-parent\blog-webapp\target\classes started by 0 in C:\Users\0\eclipse-workspace\blog-parent\blog-webapp)
+2018-09-12 at 14:26:39 CST DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.1.0.M2, Spring v5.1.0.RC2
+2018-09-12 at 14:26:39 CST INFO  org.springframework.boot.SpringApplication 689 logStartupProfileInfo - The following profiles are active: dev
+2018-09-12 at 14:26:40 CST DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar 184 registerBeanDefinitions - Searching for mappers annotated with @Mapper
+2018-09-12 at 14:26:40 CST DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar 196 registerBeanDefinitions - Using auto-configuration base package 'pri.zjj.blog'
+2018-09-12 at 14:26:41 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+2018-09-12 at 14:26:42 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+2018-09-12 at 14:26:42 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet Engine: Apache Tomcat/9.0.10
+2018-09-12 at 14:26:42 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_172/bin/server;C:/Program Files/Java/jre1.8.0_172/bin;C:/Program Files/Java/jre1.8.0_172/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Apache\maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Apache\gradle-4.9\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global;C:\Program Files\Git\cmd;C:\Users\0\AppData\Roaming\npm;C:\Users\0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\0\Desktop;;.]
+2018-09-12 at 14:26:42 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - Using SLF4J as the default logging framework
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.eventLoopThreads: 4
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - -Dio.netty.leakDetection.level: simple
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - -Dio.netty.leakDetection.targetRecords: 4
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - Platform: Windows
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.noUnsafe: false
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Java version: 8
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - sun.misc.Unsafe.theUnsafe: available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - sun.misc.Unsafe.copyMemory: available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - java.nio.Buffer.address: available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - direct buffer constructor: available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - java.nio.Bits.unaligned: available, true
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - sun.misc.Unsafe: available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.tmpdir: C:\Users\0\AppData\Local\Temp (java.io.tmpdir)
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.noPreferDirect: false
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.maxDirectMemory: 1834483712 bytes
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - java.nio.ByteBuffer.cleaner(): available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5ffc65b5
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - org.jctools-core.MpscChunkedArrayQueue: available
+2018-09-12 at 14:26:42 CST DEBUG reactor.util.Loggers$Slf4JLogger 230 debug - Using Slf4j logging framework
+2018-09-12 at 14:26:42 CST DEBUG reactor.util.Loggers$Slf4JLogger 230 debug - Starting UnsafeSupport init in Java 1.8
+2018-09-12 at 14:26:42 CST DEBUG reactor.util.Loggers$Slf4JLogger 230 debug - Unsafe is available
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - LatencyUtils/HdrUtils are not available, metrics are disabled
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.numHeapArenas: 8
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.numDirectArenas: 8
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.pageSize: 8192
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.maxOrder: 11
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.chunkSize: 16777216
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.tinyCacheSize: 512
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.smallCacheSize: 256
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.normalCacheSize: 64
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-12 at 14:26:42 CST INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+2018-09-12 at 14:26:42 CST DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-09-12 at 14:26:42 CST DEBUG org.mybatis.spring.SqlSessionFactoryBean 534 buildSqlSessionFactory - Property 'mapperLocations' was not specified or no matching resources found
+2018-09-12 at 14:26:42 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - Trying to get a Redis connection for: RedisURI [host='193.112.54.118', port=6379]
+2018-09-12 at 14:26:43 CST INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional epoll library
+2018-09-12 at 14:26:43 CST INFO  io.netty.util.internal.logging.Slf4JLogger 101 info - Starting without optional kqueue library
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.eventLoopThreads: 8
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.noKeySetOptimization: false
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Adding reference to io.netty.channel.nio.NioEventLoopGroup@2d0fcc16, existing ref count 0
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Resolved SocketAddress 193.112.54.118:6379 using RedisURI [host='193.112.54.118', port=6379]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Connecting to Redis at 193.112.54.118:6379
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.processId: 6624 (auto-detected)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Djava.net.preferIPv4Stack: false
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Djava.net.preferIPv6Addresses: false
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 86 debug - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.allocator.type: pooled
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.threadLocalDirectBufferSize: 0
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.recycler.linkCapacity: 16
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - -Dio.netty.recycler.ratio: 8
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@264821c7
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, [id: 0x397e6cc1] (inactive), chid=0x1] channelRegistered()
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] channelActive()
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] activating endpoint
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] flushCommands()
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] flushCommands() Flushing 0 commands
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelActive()
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelActive()
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] channelActive() done
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Connecting to Redis at 193.112.54.118:6379: Success
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - dispatching command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] write(ctx, AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], promise)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379] writing command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] write() done
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@78c88ae1)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@78c88ae1)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 86 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] Received: 5 bytes, 1 commands in the stack
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] Stack contains: 1 commands
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded AsyncCommand [type=AUTH, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - dispatching command AsyncCommand [type=CONFIG, output=MapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=CONFIG, output=MapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] write(ctx, AsyncCommand [type=CONFIG, output=MapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] write() done
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379] writing command AsyncCommand [type=CONFIG, output=MapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 86 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] Received: 42 bytes, 1 commands in the stack
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] Stack contains: 1 commands
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode AsyncCommand [type=CONFIG, output=MapOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:43 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded AsyncCommand [type=CONFIG, output=MapOutput [output={notify-keyspace-events=gxE}, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 54 initHandlerMethods - initialising the handler methods
+2018-09-12 at 14:26:43 CST INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping 69 initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers 60 getDefault - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator 89 buildExpressionFactory - Loaded expression factory via original TCCL
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers 60 getDefault - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl 148 messageInterpolator - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl 180 constraintValidatorFactory - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl 194 parameterNameProvider - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser 120 getValidationXmlInputStream - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper 53 getResettableInputStreamForPath - Trying to load META-INF/validation.xml via user class loader
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper 60 getResettableInputStreamForPath - Trying to load META-INF/validation.xml via TCCL
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper 66 getResettableInputStreamForPath - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser 127 getValidationXmlInputStream - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 578 logValidatorFactoryScopedConfiguration - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 579 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 580 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 581 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-09-12 at 14:26:43 CST DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 582 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-09-12 at 14:26:43 CST DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration 234 afterPropertiesSet - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-09-12 at 14:26:43 CST DEBUG reactor.util.Loggers$Slf4JLogger 230 debug - Enabling stacktrace debugging via onOperatorDebug
+2018-09-12 at 14:26:43 CST DEBUG reactor.util.Loggers$Slf4JLogger 235 debug - Hooking onEachOperator: onOperatorDebug
+2018-09-12 at 14:26:43 CST INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 160 start - Context refreshed
+2018-09-12 at 14:26:43 CST INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper 163 start - Found 1 custom documentation plugin(s)
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 50 combine - Total number of request handlers 8
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/error/403], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error/403], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 52 combine - Adding key: [/test/{id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/test/{id}], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2018-09-12 at 14:26:43 CST DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner 58 combine - Combined number of request handlers 8
+2018-09-12 at 14:26:43 CST INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner 41 scan - Scanning for api listing references
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 76 collectFromReturnType - Adding return parameter of type Ljava/lang/String;
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 83 collectParameters - Reading parameters models for handlerMethod |test_get|
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 94 collectParameters - Finished reading parameters models for handlerMethod |test_get|
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider 84 collectApiResponses - Reading parameters models for handlerMethod |test_get|
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.schema.DefaultModelProvider 86 modelFor - Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.scanners.ApiModelReader 76 read - Did not find any parameter models for java.lang.String
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.schema.DefaultModelDependencyProvider 113 resolvedDependencies - Marking base type Ljava/lang/String; as seen
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_1
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_2
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_3
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_4
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_5
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_6
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method test_get
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:string
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method test_get
+2018-09-12 at 14:26:44 CST INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator 40 startingWith - Generating unique operation named: test_getUsingGET_7
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 76 collectFromReturnType - Adding return parameter of type Ljava/lang/Object;
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 83 collectParameters - Reading parameters models for handlerMethod |error403|
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider 94 collectParameters - Finished reading parameters models for handlerMethod |error403|
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider 84 collectApiResponses - Reading parameters models for handlerMethod |error403|
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.schema.DefaultModelProvider 86 modelFor - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.scanners.ApiModelReader 76 read - Did not find any parameter models for java.lang.Object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.schema.DefaultModelDependencyProvider 113 resolvedDependencies - Marking base type Ljava/lang/Object; as seen
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader 59 apply - Setting spring response class to: object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.VendorExtensionsReader 59 apply - Extension count 1 for method error403
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader 74 apply - Setting response class to:object
+2018-09-12 at 14:26:44 CST DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader 103 apply - Authorization count 0 for method error403
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Resolved SocketAddress 193.112.54.118:6379 using RedisURI [host='193.112.54.118', port=6379]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Connecting to Redis at 193.112.54.118:6379
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, [id: 0x8e028f86] (inactive), chid=0x2] channelRegistered()
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] channelActive()
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] activating endpoint
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] flushCommands()
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] flushCommands() Flushing 0 commands
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelActive()
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelActive()
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] channelActive() done
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Connecting to Redis at 193.112.54.118:6379: Success
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - dispatching command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] write(ctx, AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], promise)
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379] writing command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] write() done
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@7c44467e)
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@7c44467e)
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 86 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] Received: 5 bytes, 1 commands in the stack
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] Stack contains: 1 commands
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - dispatching command AsyncCommand [type=PSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=PSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] write() done
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] write(ctx, AsyncCommand [type=PSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379] writing command AsyncCommand [type=PSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 86 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] Received: 162 bytes, 1 commands in the stack
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] Stack contains: 1 commands
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode AsyncCommand [type=PSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded AsyncCommand [type=PSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode null
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded null, empty stack: true
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode null
+2018-09-12 at 14:26:44 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded null, empty stack: true
+2018-09-12 at 14:26:44 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting ProtocolHandler ["http-nio-8080"]
+2018-09-12 at 14:26:44 CST INFO  org.apache.juli.logging.DirectJDKLog 173 log - Using a shared selector for servlet write/read
+2018-09-12 at 14:26:44 CST INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started Application in 5.173 seconds (JVM running for 6.334)
+2018-09-12 at 14:26:44 CST INFO  pri.zjj.blog.Application 22 main - Application success!
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - dispatching command AsyncCommand [type=PUNSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=PUNSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] write(ctx, AsyncCommand [type=PUNSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] write() done
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379] writing command AsyncCommand [type=PUNSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 86 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] Received: 33 bytes, 1 commands in the stack
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] Stack contains: 1 commands
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - Decode AsyncCommand [type=PUNSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Decoded AsyncCommand [type=PUNSUBSCRIBE, output=PubSubOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - close()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - closeAsync()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] closeAsync()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] channelInactive()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, epid=0x2] deactivating endpoint handler
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] channelInactive() done
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelInactive()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] Reconnect scheduling disabled
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelInactive()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] Reconnect scheduling disabled
+2018-09-12 at 14:26:52 CST INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x86e18a86, /10.41.253.52:61600 -> /193.112.54.118:6379, chid=0x2] channelUnregistered()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - close()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 71 debug - closeAsync()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] closeAsync()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] channelInactive()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, epid=0x1] deactivating endpoint handler
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] channelInactive() done
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelInactive()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] Reconnect scheduling disabled
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] channelInactive()
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, last known addr=/193.112.54.118:6379] Reconnect scheduling disabled
+2018-09-12 at 14:26:52 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 76 debug - [channel=0x79c90dec, /10.41.253.52:61599 -> /193.112.54.118:6379, chid=0x1] channelUnregistered()
+2018-09-12 at 14:26:53 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Freed 7 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-2
+2018-09-12 at 14:26:53 CST DEBUG io.netty.util.internal.logging.Slf4JLogger 81 debug - Freed 3 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1

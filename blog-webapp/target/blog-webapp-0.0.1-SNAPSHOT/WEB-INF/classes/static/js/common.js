@@ -1,7 +1,7 @@
 var vAside = new Vue({
     el: '#aside',
     data:{
-        headPhoto:'../image/head/default.jpg',
+        headPhoto:'/blog/image/head/default.jpg',
         userName:'游客',
         menus:[{name:'首页',url:'javascript:void(0);'},{name:'用户信息',url:'javascript:void(0);'},{name:'注销',url:'javascript:void(0);'}],
         address:'',
@@ -18,7 +18,7 @@ var vAside = new Vue({
             }
         }
         //添加全局触摸拉出侧边栏
-        if (document.addEventListener) {
+        if (this.$el.addEventListener) {
             let touch_x, touch_y;
             let changedX, changedY;
             let sourceLeft = document.defaultView.getComputedStyle(this.$el).left;
